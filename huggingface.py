@@ -1,3 +1,13 @@
+"""
+title: Llama C++ Pipeline
+author: open-webui
+date: 2024-05-30
+version: 1.0
+license: MIT
+description: A pipeline for generating responses using the Llama C++ library.
+requirements: llama-cpp-python
+"""
+
 from pydantic import BaseModel, Field
 from typing import Optional, Union, Generator, Iterator
 import os
